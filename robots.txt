@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://betel-glamour.netlify.app/sitemap.xml
+Sitemap: https://cheerful-truffle-741dcd.netlify.app/sitemap.xml

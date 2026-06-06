@@ -5,8 +5,8 @@ backend:
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
-site_url: "https://betel-glamour.netlify.app"
-display_url: "https://betel-glamour.netlify.app"
+site_url: "https://cheerful-truffle-741dcd.netlify.app"
+display_url: "https://cheerful-truffle-741dcd.netlify.app"
 logo_url: "/assets/produtos/LOGO/logo-header.png"
 
 locale: "pt"
