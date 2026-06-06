@@ -1,13 +1,13 @@
-const CATEGORIES = [
-  { label: "Todos", type: "all", value: "todos" },
-  { label: "Roupas", type: "grupo", value: "Roupas" },
-  { label: "Perfumes Femininos", type: "categoria", value: "Perfumes Femininos" },
-  { label: "Perfumes Masculinos", type: "categoria", value: "Perfumes Masculinos" },
+const DEFAULT_CATEGORIES = [
+  { nome: "Roupas", grupo: "Roupas", categoria: "Roupas" },
+  { nome: "Perfumes Femininos", grupo: "Perfumes", categoria: "Perfumes Femininos" },
+  { nome: "Perfumes Masculinos", grupo: "Perfumes", categoria: "Perfumes Masculinos" },
 ];
 
 const state = {
+  categories: [{ nome: "Todos", categoria: "todos" }, ...DEFAULT_CATEGORIES],
   products: [],
-  filter: CATEGORIES[0],
+  filter: { nome: "Todos", categoria: "todos" },
 };
 
 const header = document.querySelector("[data-header]");
@@ -63,11 +63,11 @@ function escapeHtml(value = "") {
 }
 
 function productMatchesFilter(product) {
-  if (state.filter.type === "all") {
+  if (state.filter.categoria === "todos") {
     return true;
   }
 
-  return product[state.filter.type] === state.filter.value;
+  return product.categoria === state.filter.categoria;
 }
 
 function renderFilters() {
@@ -75,8 +75,8 @@ function renderFilters() {
     return;
   }
 
-  filterBar.innerHTML = CATEGORIES.map((category, index) => {
-    const isActive = category.value === state.filter.value && category.type === state.filter.type;
+  filterBar.innerHTML = state.categories.map((category, index) => {
+    const isActive = category.categoria === state.filter.categoria;
     return `
       <button
         class="filter-button${isActive ? " is-active" : ""}"
@@ -84,7 +84,7 @@ function renderFilters() {
         data-filter-index="${index}"
         aria-pressed="${isActive}"
       >
-        ${escapeHtml(category.label)}
+        ${escapeHtml(category.nome)}
       </button>
     `;
   }).join("");
@@ -256,7 +256,7 @@ filterBar?.addEventListener("click", (event) => {
     return;
   }
 
-  state.filter = CATEGORIES[Number(button.dataset.filterIndex)];
+  state.filter = state.categories[Number(button.dataset.filterIndex)];
   renderFilters();
   renderProducts();
 });
@@ -303,6 +303,28 @@ async function loadProducts() {
   renderProducts();
 }
 
-renderFilters();
+async function loadCategories() {
+  try {
+    const response = await fetch("data/categorias.json");
+
+    if (!response.ok) {
+      throw new Error("Arquivo de categorias não encontrado.");
+    }
+
+    const data = await response.json();
+    const categories = Array.isArray(data) ? data : data.categorias || [];
+    state.categories = [
+      { nome: "Todos", categoria: "todos" },
+      ...categories.filter((category) => category.nome && category.categoria),
+    ];
+    state.filter = state.categories[0];
+  } catch {
+    state.categories = [{ nome: "Todos", categoria: "todos" }, ...DEFAULT_CATEGORIES];
+    state.filter = state.categories[0];
+  }
+
+  renderFilters();
+}
+
 loadSiteInfo();
-loadProducts();
+loadCategories().then(loadProducts);

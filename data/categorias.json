@@ -1,0 +1,19 @@
+{
+  "categorias": [
+    {
+      "nome": "Roupas",
+      "grupo": "Roupas",
+      "categoria": "Roupas"
+    },
+    {
+      "nome": "Perfumes Femininos",
+      "grupo": "Perfumes",
+      "categoria": "Perfumes Femininos"
+    },
+    {
+      "nome": "Perfumes Masculinos",
+      "grupo": "Perfumes",
+      "categoria": "Perfumes Masculinos"
+    }
+  ]
+}
