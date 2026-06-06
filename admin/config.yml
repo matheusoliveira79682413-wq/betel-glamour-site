@@ -1,0 +1,101 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: "https://betel-glamour.netlify.app"
+display_url: "https://betel-glamour.netlify.app"
+logo_url: "/assets/produtos/LOGO/logo-header.png"
+
+locale: "pt"
+
+collections:
+  - name: "conteudo"
+    label: "Conteúdo"
+    files:
+      - name: "site"
+        label: "Informações do site"
+        file: "data/site.json"
+        format: "json"
+        fields:
+          - label: "Nome da marca"
+            name: "brandName"
+            widget: "string"
+          - label: "Texto acima do título"
+            name: "heroKicker"
+            widget: "string"
+          - label: "Título principal"
+            name: "heroTitle"
+            widget: "string"
+          - label: "Descrição da capa"
+            name: "heroDescription"
+            widget: "text"
+          - label: "Título sobre a marca"
+            name: "aboutTitle"
+            widget: "string"
+          - label: "Texto sobre a marca"
+            name: "aboutText"
+            widget: "text"
+          - label: "WhatsApp"
+            name: "whatsappUrl"
+            widget: "string"
+            required: false
+            hint: "Use o link completo, por exemplo: https://wa.me/5500000000000"
+          - label: "Instagram"
+            name: "instagramUrl"
+            widget: "string"
+            required: false
+            hint: "Use o link completo do perfil."
+          - label: "Endereço"
+            name: "address"
+            widget: "string"
+            required: false
+          - label: "Horário de atendimento"
+            name: "hours"
+            widget: "string"
+            required: false
+
+      - name: "produtos"
+        label: "Produtos"
+        file: "data/produtos.json"
+        format: "json"
+        fields:
+          - label: "Produtos"
+            name: "produtos"
+            widget: "list"
+            summary: "{{fields.nome}}"
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "string"
+                required: false
+                hint: "Use letras minúsculas, números e hífens. Exemplo: blazer-couro-marrom."
+              - label: "Grupo"
+                name: "grupo"
+                widget: "select"
+                options:
+                  - "Roupas"
+                  - "Perfumes"
+              - label: "Categoria"
+                name: "categoria"
+                widget: "select"
+                options:
+                  - "Roupas"
+                  - "Perfumes Femininos"
+                  - "Perfumes Masculinos"
+              - label: "Nome"
+                name: "nome"
+                widget: "string"
+              - label: "Descrição"
+                name: "descricao"
+                widget: "text"
+              - label: "Fotos"
+                name: "fotos"
+                widget: "list"
+                min: 1
+                field:
+                  label: "Foto"
+                  name: "foto"
+                  widget: "image"

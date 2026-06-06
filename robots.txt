@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://betel-glamour.netlify.app/sitemap.xml

@@ -1,0 +1,214 @@
+{
+    "produtos":  [
+                     {
+                         "id":  "roupas-01-blazer-cropped-em-couro-sintetico-marrom",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Blazer Cropped em Couro Sintético Marrom",
+                         "descricao":  "Blazer feminino cropped em couro sintético marrom, com gola alfaiataria, manga longa e fechamento frontal com botões. Uma peça moderna e sofisticada para compor looks estilosos, casuais ou noturnos.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/01.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-02-jaqueta-cropped-matelasse-preta-com-botoes-dourados",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Jaqueta Cropped Matelassê Preta com Botões Dourados",
+                         "descricao":  "Jaqueta feminina cropped preta em tecido matelassê, com gola estruturada, bolsos frontais e botões dourados. Uma peça moderna e versátil para compor looks casuais com toque sofisticado.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/02.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-03-camisa-manga-longa-off-white-com-lenco-estampado",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Camisa Manga Longa Off-White com Lenço Estampado",
+                         "descricao":  "Blusa feminina off-white de manga longa, com modelagem solta e lenço estampado no decote. Uma peça leve e versátil, ideal para composições casuais com um toque elegante.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/03.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-04-colete-alfaiataria-bege-com-amarracao-na-cintura",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Colete Alfaiataria Bege com Amarração na Cintura",
+                         "descricao":  "Colete feminino bege em estilo alfaiataria, com gola estruturada, bolsos frontais e amarração na cintura. Uma peça elegante e versátil para compor looks casuais, modernos ou mais sofisticados.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/04.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-05-colete-alongado-marrom-em-alfaiataria",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Colete Alongado Marrom em Alfaiataria",
+                         "descricao":  "Colete feminino alongado marrom, com gola de alfaiataria e modelagem reta. Uma peça versátil e sofisticada para sobrepor blusas, camisas ou vestidos, trazendo elegância ao look.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/05.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-06-blazer-rosa-com-detalhes-trancados",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Blazer Rosa com Detalhes Trançados",
+                         "descricao":  "Blazer feminino rosa com modelagem estruturada, fechamento por botões e detalhes trançados na parte frontal e nas mangas. Uma peça delicada e sofisticada para compor looks elegantes com toque romântico.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/06.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-07-calca-cotele-marrom-com-cintura-elastica",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Calça Cotelê Marrom com Cintura Elástica",
+                         "descricao":  "Calça feminina marrom em tecido canelado estilo cotelê, com cintura elástica, cordão de ajuste e bolsos frontais. Uma peça confortável e versátil para looks casuais do dia a dia.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/07.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-08-vestido-tricot-estampado-preto-e-branco",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Vestido Tricot Estampado Preto e Branco",
+                         "descricao":  "Vestido feminino em tricot com estampa geométrica preto e branco, manga longa e acabamento em contraste. Uma peça confortável e estilosa para composições casuais com personalidade.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/08.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-09-blusa-moletinho-com-capuz-e-perolas-nas-mangas",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Blusa Moletinho com Capuz e Pérolas nas Mangas",
+                         "descricao":  "Blusa feminina em tom amarelo claro, com capuz, cordões frontais e aplicação de pérolas nas mangas. Uma peça confortável e delicada para looks casuais com toque feminino.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/09.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-10-calca-jogger-bege-com-detalhes-em-preto",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Calça Jogger Bege com Detalhes em Preto",
+                         "descricao":  "Calça feminina bege com cintura elástica, detalhes em preto na parte superior e botões laterais decorativos. Uma peça confortável e moderna para compor looks casuais com estilo.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/10.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-11-colete-vermelho-texturizado-com-gola-ampla",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Colete Vermelho Texturizado com Gola Ampla",
+                         "descricao":  "Colete feminino vermelho em tecido texturizado, com modelagem aberta e gola ampla. Uma peça marcante e sofisticada para sobrepor looks básicos e adicionar cor à composição.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/11.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-12-vestido-tule-floral-manga-longa",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Vestido Tule Floral Manga Longa",
+                         "descricao":  "Vestido feminino em tule com estampa floral delicada, manga longa e detalhe drapeado lateral. Uma peça leve e romântica, ideal para composições elegantes e femininas.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/12.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-13-casaco-trench-coat-vermelho-com-cinto",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Casaco Trench Coat Vermelho com Cinto",
+                         "descricao":  "Casaco feminino vermelho estilo trench coat, com fechamento duplo de botões, gola alta e cinto ajustável na cintura. Uma peça marcante e elegante para compor looks de inverno com sofisticação.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/13.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-14-saia-plissada-preta-com-cinto-marrom",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Saia Plissada Preta com Cinto Marrom",
+                         "descricao":  "Saia feminina preta com pregas estruturadas e cinto marrom com fivela dourada. Uma peça moderna e versátil para compor looks casuais, elegantes ou com estilo mais fashion.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/14.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "roupas-15-blazer-tweed-branco-e-preto",
+                         "grupo":  "Roupas",
+                         "categoria":  "Roupas",
+                         "nome":  "Blazer Tweed Branco e Preto",
+                         "descricao":  "Blazer feminino em tweed branco e preto, com modelagem estruturada, gola clássica e bolsos frontais. Uma peça elegante e atemporal para compor looks sofisticados ou casuais refinados.",
+                         "fotos":  [
+                                       "assets/produtos/roupas/15.jpeg"
+                                   ]
+                     },
+                     {
+                         "id":  "perfumes-femininos-01-gucci-guilty-pour-femme-eau-de-parfum",
+                         "grupo":  "Perfumes",
+                         "categoria":  "Perfumes Femininos",
+                         "nome":  "Gucci Guilty Pour Femme Eau de Parfum",
+                         "descricao":  "O Gucci Guilty Pour Femme Eau de Parfum é a versão que corresponde ao frasco dourado da sua foto. É uma fragrância rica, vibrante e cheia de atitude, feita para uma mulher confiante e ousada. As notas de topo trazem o frescor cítrico e picante da Mandora misturado com Pimenta Rosa. O coração é um buquê floral sofisticado de Lilás, rosa e violeta. A base, quente e sensual, é composta por notas de Patchouli e tons ambarados, que conferem profundidade e longa duração à fragrância. É um perfume potente e inconfundível.",
+                         "fotos":  [
+                                       "assets/produtos/perfumes/femininos/01.jpg"
+                                   ]
+                     },
+                     {
+                         "id":  "perfumes-femininos-02-yara-lattafa",
+                         "grupo":  "Perfumes",
+                         "categoria":  "Perfumes Femininos",
+                         "nome":  "Yara (Lattafa)",
+                         "descricao":  "O Yara da casa Lattafa é um verdadeiro fenômeno de vendas. Ele ficou mundialmente famoso por seu aroma extremamente cremoso, doce e aconchegante, sendo frequentemente comparado a um \"milkshake de morango gourmet\" ou a um marshmallow de luxo. A fragrância se abre com notas florais suaves de Orquídea e Heliotrópio, combinadas com o toque cítrico da Tangerina. O grande destaque fica no coração, que traz uma mistura viciante de Notas Gourmand (doces) e Frutas Tropicais. A base se consolida com uma baunilha bem cremosa, Almíscar e Sândalo, deixando um rastro macio, sedutor e muito elogiado. É o perfume ideal para quem ama fragrâncias doces, delicadas e marcantes.",
+                         "fotos":  [
+                                       "assets/produtos/perfumes/femininos/02.jpg"
+                                   ]
+                     },
+                     {
+                         "id":  "perfumes-femininos-03-ajwad-pink-to-pink",
+                         "grupo":  "Perfumes",
+                         "categoria":  "Perfumes Femininos",
+                         "nome":  "Ajwad Pink to Pink",
+                         "descricao":  "O Ajwad Pink to Pink da Lattafa é um flanker (uma variação) vibrante, alegre e intensamente adocicado do famoso Ajwad tradicional. Como o próprio nome e a identidade visual entregam, esta versão foi desenhada para ser uma explosão de \"notas cor-de-rosa\" e pura suculência. A fragrância se abre de forma super aberta e magnética, destacando notas tropicais e marcantes de Frutas Vermelhas, Lichia e Goiaba, com um toque levemente cítrico de Toranja. No coração, o perfume ganha um corpo floral e cremoso com a presença marcante de Rosa combinada à Baunilha, dando um aspecto quase de doce gourmet. A base fecha com o conforto do Almíscar (musk) e notas levemente amadeiradas, garantindo que essa bomba frutada grude na pele e deixe um rastro incrivelmente elogiado. É perfeito para quem ama perfumes doces, alegres e de alta fixação.",
+                         "fotos":  [
+                                       "assets/produtos/perfumes/femininos/03.jpg"
+                                   ]
+                     },
+                     {
+                         "id":  "perfumes-masculinos-01-alpine-homme-sport-maison-alhambra",
+                         "grupo":  "Perfumes",
+                         "categoria":  "Perfumes Masculinos",
+                         "nome":  "Alpine Homme Sport (Maison Alhambra)",
+                         "descricao":  "O Alpine Homme Sport da casa Maison Alhambra é amplamente conhecido por ser uma inspiração incrivelmente fiel do renomado Allure Homme Sport da Chanel. A fragrância é a definição de frescor sofisticado e energia. Ela se abre com uma explosão cítrica e revigorante de Mandarina e Hortelã, combinada com notas marinhas e aldeídos que dão uma sensação de ar puro e limpeza. No coração, surge um toque levemente picante de Pimenta Preta e Cedro, trazendo masculinidade. A base fecha com a cremosidade da Fava Tonka e do Almíscar Branco, garantindo um fundo confortável, sedutor e muito elegante. É o perfume perfeito para o dia a dia, climas quentes, trabalho ou momentos pós-treino.",
+                         "fotos":  [
+                                       "assets/produtos/perfumes/masculinos/01.jpg"
+                                   ]
+                     },
+                     {
+                         "id":  "perfumes-masculinos-02-asad-lattafa",
+                         "grupo":  "Perfumes",
+                         "categoria":  "Perfumes Masculinos",
+                         "nome":  "Asad (Lattafa)",
+                         "descricao":  "O Asad da casa Lattafa é mundialmente famoso por ser uma inspiração incrivelmente fiel e potente do renomado Dior Sauvage Elixir. É uma fragrância intensa, quente e de presença esmagadora. Ele se abre com uma combinação picante de Pimenta Preta e um leve toque frutado de Abacaxi. No coração, o perfume revela sua personalidade marcante com notas ricas de Café, Tabaco e Patchouli. O grande segredo do seu sucesso está na base, que traz uma mistura extremamente sedutora de Baunilha, Âmbar e Madeiras, deixando um rastro adocicado, resinoso e ultra sofisticado. É o perfume perfeito para a noite, encontros ou climas mais frios, pois tem uma fixação e projeção absurdas.",
+                         "fotos":  [
+                                       "assets/produtos/perfumes/masculinos/02.jpg"
+                                   ]
+                     },
+                     {
+                         "id":  "perfumes-masculinos-03-asad-lattafa",
+                         "grupo":  "Perfumes",
+                         "categoria":  "Perfumes Masculinos",
+                         "nome":  "Asad (Lattafa)",
+                         "descricao":  "Este é o frasco físico do Asad da Lattafa na sua versão portátil. O design cilíndrico com as fitas metálicas entrelaçadas segue a mesma linha de embalagem compacta da marca, mas aqui ostentando o acabamento em preto fosco e ouro com o brasão do leão no centro. Como ele é o mesmo líquido do frasco grande, mantém a famosa e elogiada assinatura inspirada no Dior Sauvage Elixir. É uma fragrância quente e altamente sedutora, que abre com o toque picante da Pimenta Preta, traz a riqueza do Café e do Tabaco no coração, e fecha com o fundo adocicado e denso da Baunilha com o Âmbar. Uma joia da perfumaria árabe que entrega altíssima performance mesmo nesse tamanho menor.",
+                         "fotos":  [
+                                       "assets/produtos/perfumes/masculinos/03.jpg"
+                                   ]
+                     }
+                 ]
+}
