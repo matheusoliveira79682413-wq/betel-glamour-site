@@ -1,12 +1,12 @@
 {
-  "brandName": "Betel Glamour",
-  "heroKicker": "Vestuário Feminino",
-  "heroTitle": "Betel Glamour",
   "heroDescription": "Moda feminina elegante, moderna e sofisticada, com inspiração europeia para rotina, trabalho e ocasiões especiais no Brasil.",
   "aboutTitle": "Elegância europeia em uma vitrine feminina e minimalista.",
-  "aboutText": "A Betel apresenta peças femininas para mulheres que buscam presença, delicadeza e sofisticação sem excesso. A curadoria combina estilo europeu, linhas limpas e versatilidade para diferentes momentos.",
-  "whatsappUrl": "",
-  "instagramUrl": "",
+  "heroKicker": "Vestuário Feminino",
+  "hours": "9h ás 18h",
+  "brandName": "Betel Glamour",
   "address": "Será informado",
-  "hours": "Será informado"
+  "aboutText": "A Betel apresenta peças femininas para mulheres que buscam presença, delicadeza e sofisticação sem excesso. A curadoria combina estilo europeu, linhas limpas e versatilidade para diferentes momentos.",
+  "instagramUrl": "",
+  "whatsappUrl": "",
+  "heroTitle": "Betel Glamour"
 }
